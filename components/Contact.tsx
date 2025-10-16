@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import AnimatedSection from './AnimatedSection';
 
@@ -40,7 +39,8 @@ const Contact: React.FC = () => {
           <div className="space-y-8">
             <div className="h-80 w-full bg-gray-200 overflow-hidden rounded-lg shadow-md">
                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92695.6983870634!2d-80.55923233379854!3d43.45163931168128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf4fc4266152b%3A0x252570b677a83424!2sKitchener%2C%20ON!5e0!3m2!1sen!2sca!4v1684343412345"
+                  // **CORRECTED**: Using a valid Google Maps embed URL with a placeholder for Kitchener, ON.
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.222340237618!2d-80.494495584507!3d43.45164227912884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf4f34a85b9b7%3A0x8a1a3e6b8c9c0c1e!2sKitchener%2C%20ON!5e0!3m2!1sen!2sca!4v1678886400000!5m2!1sen!2sca"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
